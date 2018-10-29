@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/game_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="15dp"
+            />
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="7"
+            android:rowCount="6">
+
+            <Button
+                android:id="@+id/a1"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/b1"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/c1"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/d1"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/e1"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/f1"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/g1"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/a2"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/b2"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/c2"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/d2"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/e2"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/f2"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/g2"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/a3"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/b3"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/c3"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/d3"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/e3"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/f3"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/g3"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/a4"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/b4"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/c4"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/d4"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/e4"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/f4"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/g4"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/a5"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/b5"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/c5"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/d5"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/e5"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/f5"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/g5"
+                style="@style/button_style"
+                android:onClick="userInput" />
+            <Button
+
+                android:id="@+id/a6"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/b6"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/c6"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+                android:id="@+id/d6"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/e6"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/f6"
+                style="@style/button_style"
+                android:onClick="userInput" />
+
+            <Button
+
+                android:id="@+id/g6"
+                style="@style/button_style"
+                android:onClick="userInput" />
+        </GridLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New game"
+            android:padding="15dp"
+            android:onClick="newGame"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
