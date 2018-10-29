@@ -156,13 +156,12 @@ public class MainActivity extends AppCompatActivity {
         playerCount = 0;
 
         //Diagonally Right
-        for (int i = 0; i < gameBoard.length - 3; i++) {
-            for (int j = 0; j < gameBoard[i].length - 3; j++) {
-                playerCount = 0;
+        for (int column = 0; column < gameBoard[0].length-3 ; column++) {
+            for (int row = 0; row < gameBoard.length -3; row++) {
                 boolean diagonalWin = true;
                 for (int k = 0; k < 4; k++) {
-                    String test = gameBoard[i + k][j + k];
-                    if (!player.equals(gameBoard[i + k][j + k])) {
+                    String test = gameBoard[row + k][column + k];
+                    if (!player.equals(gameBoard[row + k][column + k])) {
                         diagonalWin = false;
                         break;
                     }
@@ -170,19 +169,16 @@ public class MainActivity extends AppCompatActivity {
 
                 if(diagonalWin) {
                     return true;
-                } else {
-                    break;
                 }
             }
         }
 
-        for (int i = gameBoard.length-1; i > 3; i--) {
-            for (int j = 0 ; j < gameBoard[i].length -3; j++) {
-                playerCount = 0;
+        for (int column = gameBoard.length-1; column > 3; column--) {
+            for (int row = 0 ; row < gameBoard[column].length -3; row++) {
                 boolean diagonalWin = true;
                 for (int k = 0; k < 4; k++) {
-                    String test = gameBoard[i - k][j + k];
-                    if (!player.equals(gameBoard[i - k][j + k])) {
+                    String test = gameBoard[column - k][row + k];
+                    if (!player.equals(gameBoard[column - k][row + k])) {
                         diagonalWin = false;
                         break;
                     }
@@ -190,8 +186,6 @@ public class MainActivity extends AppCompatActivity {
 
                 if(diagonalWin) {
                     return true;
-                } else {
-                    break;
                 }
             }
         }
